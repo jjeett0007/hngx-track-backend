@@ -21,8 +21,8 @@ app.get('/api', (req, res) => {
   const current_day = moment().utc().format('dddd');
   const utc_time = moment().utc().format('YYYY-MM-DDTHH:mm:ss[Z]');
 
-  const github_file_url = 'https://github.com/username/repo/blob/main/file_name.ext';
-  const github_repo_url = 'https://github.com/username/repo-sample';
+  const github_file_url = 'https://github.com/jjeett0007/hngx-track-backend/blob/main/index.js';
+  const github_repo_url = 'https://github.com/jjeett0007/hngx-track-backend';
 
   const response = {
     slack_name: slack_name,
