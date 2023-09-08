@@ -8,7 +8,7 @@ module.exports = async (req, res) => {
     const current_day = new Date().toUTCString();
     const utc_time = new Date().toISOString();
 
-    const github_file_url = 'https://github.com/jjeett0007/hngx-track-backend/blob/main/index.js';
+    const github_file_url = 'https://github.com/jjeett0007/hngx-track-backend/blob/main/api/hngtask.js';
     const github_repo_url = 'https://github.com/jjeett0007/hngx-track-backend';
 
     const response = {
