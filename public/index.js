@@ -25,7 +25,7 @@ function getCurrentDayOfWeek() {
   function setImageSource() {
     const myImage = document.getElementById("myImage");
     myImage.src =
-      "https://ca.slack-edge.com/T05FFAA91JP-U05RD638XE0-e4e889dc4a55-512";
+      "https://ca.slack-edge.com/T05FFAA91JP-U05RD638XE0-220b94dd286d-512";
   }
   
   function setTrack() {
