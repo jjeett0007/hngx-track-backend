@@ -1,9 +1,53 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Hello World</title>
-</head>
-<body>
-    <h1>Hello, World!</h1>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>HNGX task 1</title>
+  </head>
+
+  <body>
+    <div id="main">
+      <div>
+        <span> Slack Display Name :</span>
+        <div data-testid="slackUserName" id="nameDisplay"></div>
+      </div>
+      <div>
+        <span> Slack Display Picture:</span>
+        <div>
+          <img
+            data-testid="slackDisplayImage"
+            id="myImage"
+            src=""
+            alt="SlackImage"
+            width="200px"
+          />
+        </div>
+      </div>
+      <div>
+        <span> Current Day of the Week:</span>
+        <div data-testid="currentDayOfTheWeek" id="dayOfWeek"></div>
+      </div>
+      <div>
+        <span> Current UTC Time:</span>
+        <div data-testid="currentUTCTime" id="currentTime"></div>
+      </div>
+      <div>
+        <span> Track:</span>
+        <div data-testid="myTrack" id="mytrack"></div>
+      </div>
+      <div>
+        <span>GitHub URL:</span>
+        <div>
+          <a
+            data-testid="githubURL"
+            href="https://github.com/jjeett0007/hngx-task-1"
+            >Github URL</a
+          >
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
 </html>
