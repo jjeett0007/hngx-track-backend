@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 
 app.use("/api/hngtask", hngtaskHandler);
 
-app.post("/api/signup", signupUser);
+// app.post("/api/signup", signupUser);
 
 
 

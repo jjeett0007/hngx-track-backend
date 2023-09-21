@@ -20,6 +20,6 @@ module.exports = async (req, res) => {
     console.log("Error registering user:", error);
     res
       .status(500)
-      .json({ error: "Error registering user again internal server errors" });
+      .json({ error: "Error registering user, internal server errors" });
   }
 };
